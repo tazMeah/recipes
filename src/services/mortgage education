@@ -1,0 +1,4 @@
+jQuery(".modal-dialog").removeAttr("style");
+jQuery("body.StudentMyCourse .modal.fade.course.in .modal-dialog").removeClass("modal-dialog").css({"width":"100vw","height":"100vh"});
+jQuery("#viewCourseModal").attr("height","100%").attr("width","100%");
+jQuery("#viewCourseModal").parents(".modal-body").removeAttr("style").css({"width":"100vw","height":"100vh"});
